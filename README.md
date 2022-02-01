@@ -1,6 +1,8 @@
 # React.js <-> Next.js Kickstart
 As the saying, react is nothing but writing whatever you want in web language, Next Js is like a check applied over the freedom given to React 😉
-Feel free to use this Boilerplate as a starting point for your own Next.js Projects.
+A basic boiler plate code for running React.js application using the Next.js wrapper framework. Next.js gives the flexibility of coding React.js in tsx, so as to introduce the type limits into the JS structure of React Library architecture.
+
+- The project gets kickstarted at the index.tsx file inside the pages folder. The '<Head> tag contains all the metadata needed and followed by the rest of the app components.'
 
 ### Local Development
 Use command,
