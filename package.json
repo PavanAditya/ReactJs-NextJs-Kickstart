@@ -1,7 +1,7 @@
 {
-  "name": "next-js-boilerplate",
-  "version": "0.1.0",
-  "author": "Yannick Wittwer",
+  "name": "reactjs-nextjs-kickstart",
+  "version": "1.0.0",
+  "author": "Pavan Aditya M S",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
