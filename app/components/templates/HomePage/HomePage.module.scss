@@ -1,0 +1,35 @@
+@import 'app.scss';
+
+.content {
+  grid-column: span 12;
+  text-align: center;
+  background-color: black;
+
+  @include breakpoint('md') {
+    grid-column: 3 / 11;
+  }
+
+  @include breakpoint('xl') {
+    grid-column: 4 / 10;
+  }
+}
+
+.nextQuotes {
+  transform: scale(1);
+}
+
+.author {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  display: block;
+  margin-top: 50px;
+  letter-spacing: .05rem;
+  color: $color-white;
+  
+  a {
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    color: $color-primary;
+    font-style: italic;
+  }
+}
